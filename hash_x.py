@@ -1,5 +1,4 @@
 import hashlib
-from binascii import unhexlify
 from sys import argv
 
 def md5_hash_integers(start:int, end:int, hash_rounds:int) -> list:
